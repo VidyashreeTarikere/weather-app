@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Weather Application in Javascript</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default" id="nav_bar">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="" class="navbar-brand navbar-link" id="weather">
+                    <i class="fa fa-cloud-sun-rain"></i>
+                    <strong>Weather Application</strong>
+                </a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="navcol">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navcol">
+                <ul class="nav navbar-nav navbar-right" id="nav_list">
+                    <li><a href="current.html">Current</a></li>
+                    <li><a href="forecast.html">Forecast</a></li>
+                    <li><a href="https://openweathermap.org/" target="_blank">Open Weather Map</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row" id="head-row">
+        <div class="col-md-12" id=colText>
+            <h2 class="text-center" id="colHeadText1">Weather Application For BeCode</h2>
+            <h2 class="text-center" id="colHeadText2">Gets Weather Information of any City</h2>
+            <ul class="list-inline" id="list_item">
+                <li>Temperature</li>
+                <li>Pressure</li>
+                <li>Wind Speed</li>
+                <li>Humidity</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container" style="margin-bottom: 60px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center" id="welcome" style="margin-top: 40px;">Welcome To Tarikere's Weather App built
+                    for BeCode</h2>
+                <p class="text-center" id="welcome-para">The weather app is a web-based application that allows users to
+                    search for current weather
+                    information as well as weather forecast of different cities around the world. Users can search for
+                    weather information by city name. This app uses openweathermap API which can be found at
+                    <a href="https://openweathermap.org/">www.openweathermap.org</a></p>
+            </div>
+        </div>
+        <div class="row" id="rowDiv" style="margin-top: 30px;">
+            <div class="col-md-4" id="colDesc">
+                <div class="info-icon"><i class="fa fa-sun-o"></i></div>
+                <h3 class="text-center">Weather API</h3>
+                <p class="text-center">Use openweathermap API to get weather information of any city.</p>
+            </div>
+
+            <div class="col-md-4" id="colDesc">
+                <div class="info-icon"><i class="fa fa-search"></i></div>
+                <h3 class="text-center">We</h3>
+                <p class="text-center">Search for current weather information and weather forecast.</p>
+            </div>
+
+            <div class="col-md-4" id="colDesc">
+                <div class="info-icon"><i class="fa fa-chevron-circle-down"></i></div>
+                <h3 class="text-center">View results</h3>
+                <p class="text-center">Get information about temperature, pressure, humidity.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row text-center" style="padding-top: 30px">
+                <p>Copyrights &copy; Weather App By Tarikere</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
